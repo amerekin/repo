@@ -21,4 +21,3 @@ elif seconds >= 60:
 
 else:
     print(seconds, 'сек')
-
