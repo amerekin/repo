@@ -60,3 +60,4 @@ for i in cub_list4:
         cub_list5.append(i)
 
 print(sum(cub_list5))
+

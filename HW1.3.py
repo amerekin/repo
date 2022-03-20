@@ -1,4 +1,4 @@
-#HW3
+
 proc_list = []
 
 for i in range(100):
