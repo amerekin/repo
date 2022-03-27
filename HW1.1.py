@@ -1,4 +1,4 @@
-# HW1
+
 seconds = int(input('Enter duration in sec: '))
 
 if seconds >= 86400:
@@ -21,4 +21,3 @@ elif seconds >= 60:
 
 else:
     print(seconds, 'сек')
-
