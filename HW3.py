@@ -26,13 +26,18 @@ num_translate('qwe')
 def num_translate_adv(key):
     if key.istitle():
         key = key.lower()
-        print(nums[key].title())
+        if nums.get(key) is None:
+            print('None')
+        else:
+            print(nums.get(key).title())
     else:
         print(nums.get(key))
 
 
 num_translate_adv('zero')
 num_translate_adv('Seven')
+num_translate_adv('Qwe')
+num_translate_adv('qwe')
 
 # Task 3
 """Написать функцию thesaurus(), принимающую в качестве аргументов имена сотрудников
